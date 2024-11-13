@@ -1,0 +1,92 @@
+* {
+  font-family: Poppins; 
+}
+
+.ColorPicker {
+  display: inline-flex; 
+  align-items: center; 
+  align-content: center;
+}
+
+.Display {
+  display: flex;
+  justify-content: center;
+  border: none;
+  height: 800px;
+  width: 300px;
+  align-items: center;
+  color: white;
+  padding: 0;
+  margin: 0;
+}
+
+.Select {
+  display: flex;
+  align-items: center;
+}
+
+.Colorr {
+  opacity: 20%;
+  border-radius: 50%; 
+  border: 2px solid white;
+  height: 20px;
+  width: 20px;
+  margin: 0;
+  padding: 0;
+  
+}
+
+.AllColors {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+ul {
+  display: flex; 
+  padding: 0;
+  margin: 0;
+   
+}
+
+li {
+  list-style-type: none;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+.Display button{
+  display: flex;
+  all: unset;
+  margin-left:10px;
+  color: white;
+  
+}
+
+.AddButton{
+  all: unset;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 20px;
+}
+
+.AddButton:hover {
+  background-color: rgb(64, 64, 64);
+}
+
+.headline{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: bold;
+}
+
+.Buttonnns{
+  display: flex;
+  justify-content: center;
+}
